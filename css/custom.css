@@ -1,0 +1,115 @@
+/* Reset own browser styles */
+@import "reset.css";
+
+/* Clearfix hack */
+.clearfix:after{
+    content: "";
+    visibility: hidden;
+    clear: both;
+    width: 0;
+    height: 0;
+}
+
+body{
+    font-size: 15px;
+    background-color: #ffffff;
+}
+.wrap{
+    padding: 15px 15px 200px 15px;
+    position: relative;
+}
+.logo{
+    float: left;
+}
+.countries{
+    float: left;
+    margin-left: 150px;
+    width: 550px;
+    padding: 10px;
+}
+h3{
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Select */
+.dropdown {
+    padding: 8px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 340px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.dropdown > option {
+    width: 100%;
+    overflow: hidden;
+}
+.dropdown-wrap{
+    float: left;
+}
+/* End Select */
+
+/* .search button */
+.search {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 31px;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #edb033;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 4px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-left: 13px;
+    margin-top: 10px;
+    font-family: Arial,serif;
+}
+.search:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+.search:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+/* end .search button */
+
+
+/* Loader*/
+.loader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #aaa;
+    opacity: 0.5;
+    display: none;
+}
+
+/* End Loader*/
+
+/* Table */
+table{
+    width: 100%;
+    font-size: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+}
+table td,table th{
+    border: 1px solid #cccccc;
+    padding: 3px 10px;
+}
+table th{
+    font-weight: 700;
+    color: #0020c9;
+    text-align: left;
+}
+/* End Table */
